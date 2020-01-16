@@ -1,0 +1,59 @@
+.eyebrow-text {
+    color:#4D4D4D; 
+    font-family:'Segoe UI',Arial,sans-serif; 
+    font-size: 10px; 
+    font-weight: bold;
+    line-height: 20px;
+} 
+
+.pops-main-wrapper {
+    border:1px solid #000000; 
+    border-width:thin;  
+    margin-top:2px;
+    width:660px;
+}
+
+.example-component {
+    background-color: #dcdcdc;
+}
+
+.pt-20 {  
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .wrapper {
+        width: 100%!important;
+    }
+    .mobileHidden {
+        display: none !important;
+    }
+    .logo-mobile-img {
+        width: 85px!important;
+        height: 18px!important;
+    }
+    .block {
+        width: 100% !important;
+        display: block !important;
+    }
+    .secondary-logo-padd-left {
+        padding-left: 0!important;
+    }
+    .secondary-logo-padd-left-20 {
+        padding-left: 20px!important;
+    }
+    .mobileTopPad10 {
+        padding-top: 10px !important;
+    }
+    .mobile-monthly-padd-left {
+        padding-left: 20px!important;
+    }
+    .mobileTopPad5 {
+        padding-top: 5px !important;
+    }
+}
+
+*[class].gmailfix {
+    display: none;
+    display: none!important;
+}
